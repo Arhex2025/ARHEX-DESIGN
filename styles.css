@@ -52,7 +52,7 @@ html,body { height:100%; margin:0; background:#0f0f10; color:#efefef; font-famil
 .projects-preview { padding:0; margin-top:8px;}
 .projects-row {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 12px;
   margin-top: 18px;
   width: 100%;
@@ -223,4 +223,5 @@ html,body { height:100%; margin:0; background:#0f0f10; color:#efefef; font-famil
   }
 
 }
+
 
