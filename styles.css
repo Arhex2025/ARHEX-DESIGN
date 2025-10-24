@@ -205,7 +205,7 @@ html,body { height:100%; margin:0; background:#0f0f10; color:#efefef; font-famil
 /* laptop */
 @media (max-width: 1500px) {
   .projects-row {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -221,4 +221,5 @@ html,body { height:100%; margin:0; background:#0f0f10; color:#efefef; font-famil
   .projects-row {
     grid-template-columns: 1fr;
   }
+
 }
