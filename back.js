@@ -24,7 +24,7 @@ function loadProjectsByCategory() {
   // Data source
   const categories = [
     {
-      title: "Projektni biro",
+      title: "Projekat 1",
       projects: [
         { image: "work/office1.jpeg", name: "Recepcija" },
         { image: "work/office2.jpeg", name: "Cekaonica" },
@@ -32,7 +32,7 @@ function loadProjectsByCategory() {
       ],
     },
     {
-      title: "Cafee bar london",
+      title: "Projekat 2",
       projects: [
         { image: "work/cafe1.jpeg", name: "Drugi sprat" },
         { image: "work/cafe2.jpeg", name: "Prvi sprat" },
@@ -41,7 +41,7 @@ function loadProjectsByCategory() {
       ],
     },
     {
-      title: "Playboy Caffee",
+      title: "Projekat 3",
       projects: [
         { image: "work/playboy1.jpeg", name: "Slika 1" },
         { image: "work/playboy2.jpeg", name: "Slika 2" },
@@ -50,7 +50,7 @@ function loadProjectsByCategory() {
       ],
     },
     {
-      title: "Neon Caffee",
+      title: "Projekat 4",
       projects: [
         { image: "work/neon1.jpeg", name: "Slika 1" },
         { image: "work/neon2.jpeg", name: "Slika 2" },
@@ -58,7 +58,7 @@ function loadProjectsByCategory() {
       ],
     },
     {
-      title: "Cafe bar",
+      title: "Projekat 5",
       projects: [
         { image: "work/cafeBar1.jpg", name: "Slika 1" },
         { image: "work/cafeBar2.jpg", name: "Slika 2" },
@@ -66,7 +66,7 @@ function loadProjectsByCategory() {
       ],
     },
     {
-      title: "Enterijer",
+      title: "Projekat 6",
       projects: [
         { image: "work/dnevni1.jpg", name: "Slika 1" },
         { image: "work/dnevni2.jpg", name: "Slika 2" },
@@ -74,12 +74,40 @@ function loadProjectsByCategory() {
       ],
     },
     {
-      title: "Caffee bar benzinska pumpa",
+      title: "Projekat 7",
       projects: [
         { image: "work/pumpa1.jpg", name: "Slika 1" },
         { image: "work/pumpa2.jpg", name: "Slika 2" },
         { image: "work/pumpa3.jpg", name: "Slika 3" },
         { image: "work/pumpa4.jpg", name: "Slika 4" },
+      ],
+    },
+
+    {
+      title: "Projekat 8",
+      projects: [
+        { image: "work/house1.jpg", name: "Slika 1" },
+        { image: "work/house2.jpg", name: "Slika 2" },
+        { image: "work/house3.jpg", name: "Slika 3" },
+        { image: "work/house4.jpg", name: "Slika 4" },
+      ],
+    },
+
+    {
+      title: "Projekat 9",
+      projects: [
+        { image: "work/kafic1.jpg", name: "Slika 1" },
+        { image: "work/kafic2.jpg", name: "Slika 2" },
+        { image: "work/kafic3.jpg", name: "Slika 3" },
+      ],
+    },
+
+    {
+      title: "Projekat 10",
+      projects: [
+        { image: "work/basta1.jpg", name: "Slika 1" },
+        { image: "work/basta2.jpg", name: "Slika 2" },
+        { image: "work/basta3.jpg", name: "Slika 3" },
       ],
     },
   ];
@@ -118,3 +146,4 @@ document.addEventListener("DOMContentLoaded", () => {
   setupScrollButtons();
   loadProjectsByCategory();
 });
+
