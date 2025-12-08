@@ -88,7 +88,7 @@ function loadProjectsByCategory() {
       projects: [
         { image: "work/house1.jpeg", name: "Slika 1" },
         { image: "work/house2.jpeg", name: "Slika 2" },
-        { image: "work/house3.jpeg", name: "Slika 3" },
+        { image: "work/house3.png", name: "Slika 3" },
         { image: "work/house4.jpeg", name: "Slika 4" },
       ],
     },
@@ -146,5 +146,6 @@ document.addEventListener("DOMContentLoaded", () => {
   setupScrollButtons();
   loadProjectsByCategory();
 });
+
 
 
