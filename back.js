@@ -86,28 +86,28 @@ function loadProjectsByCategory() {
     {
       title: "Projekat 8",
       projects: [
-        { image: "work/house1.jpg", name: "Slika 1" },
-        { image: "work/house2.jpg", name: "Slika 2" },
-        { image: "work/house3.jpg", name: "Slika 3" },
-        { image: "work/house4.jpg", name: "Slika 4" },
+        { image: "work/house1.jpeg", name: "Slika 1" },
+        { image: "work/house2.jpeg", name: "Slika 2" },
+        { image: "work/house3.jpeg", name: "Slika 3" },
+        { image: "work/house4.jpeg", name: "Slika 4" },
       ],
     },
 
     {
       title: "Projekat 9",
       projects: [
-        { image: "work/kafic1.jpg", name: "Slika 1" },
-        { image: "work/kafic2.jpg", name: "Slika 2" },
-        { image: "work/kafic3.jpg", name: "Slika 3" },
+        { image: "work/kafic1.jpeg", name: "Slika 1" },
+        { image: "work/kafic2.jpeg", name: "Slika 2" },
+        { image: "work/kafic3.jpeg", name: "Slika 3" },
       ],
     },
 
     {
       title: "Projekat 10",
       projects: [
-        { image: "work/basta1.jpg", name: "Slika 1" },
-        { image: "work/basta2.jpg", name: "Slika 2" },
-        { image: "work/basta3.jpg", name: "Slika 3" },
+        { image: "work/basta1.jpeg", name: "Slika 1" },
+        { image: "work/basta2.jpeg", name: "Slika 2" },
+        { image: "work/basta3.jpeg", name: "Slika 3" },
       ],
     },
   ];
@@ -146,4 +146,5 @@ document.addEventListener("DOMContentLoaded", () => {
   setupScrollButtons();
   loadProjectsByCategory();
 });
+
 
