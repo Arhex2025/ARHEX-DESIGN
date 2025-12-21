@@ -224,4 +224,18 @@ html,body { height:100%; margin:0; background:#0f0f10; color:#efefef; font-famil
 
 }
 
+.image-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
 
+.image-overlay-img {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+}
