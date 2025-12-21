@@ -1,27 +1,4 @@
-function setupScrollButtons() {
-  // Table with button IDs and their target sections
-  const buttonMap = [
-    { id: "learn-more", target: ".about" },
-  ];
-
-  buttonMap.forEach(({ id, target }) => {
-    const button = document.getElementById(id);
-    if (!button) return;
-
-    button.addEventListener("click", () => {
-      const section = document.querySelector(target);
-      if (section) {
-        section.scrollIntoView({ behavior: "smooth", block: "start" });
-      }
-    });
-  });
-}
-
-function loadProjectsByCategory() {
-  const container = document.querySelector(".projects-container");
-  if (!container) return;
-
-  // Data source
+// Data source
   const categories = [
     {
       title: "Projekat 1",
@@ -112,6 +89,29 @@ function loadProjectsByCategory() {
     },
   ];
 
+function setupScrollButtons() {
+  // Table with button IDs and their target sections
+  const buttonMap = [
+    { id: "learn-more", target: ".about" },
+  ];
+
+  buttonMap.forEach(({ id, target }) => {
+    const button = document.getElementById(id);
+    if (!button) return;
+
+    button.addEventListener("click", () => {
+      const section = document.querySelector(target);
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    });
+  });
+}
+
+function loadProjectsByCategory() {
+  const container = document.querySelector(".projects-container");
+  if (!container) return;
+
   container.innerHTML = "";
 
   categories.forEach(cat => {
@@ -128,11 +128,20 @@ function loadProjectsByCategory() {
       const article = document.createElement("article");
       article.className = "project-card";
 
-      article.innerHTML = `
-        <img src="${p.image}" alt="${p.name}">
-        <span class="card-title">${p.name}</span>
-      `;
+      const img = document.createElement("img");
+      img.src = p.image;
+      img.alt = p.name;
 
+      img.addEventListener("click", () => {
+        openImageViewer(p.image);
+      });
+
+      const title = document.createElement("span");
+      title.className = "card-title";
+      title.textContent = p.name;
+
+      article.appendChild(img);
+      article.appendChild(title);
       row.appendChild(article);
     });
 
@@ -141,11 +150,38 @@ function loadProjectsByCategory() {
   });
 }
 
+function openImageViewer(src) {
+  const overlay = document.createElement("div");
+  overlay.className = "image-overlay";
+
+  const img = document.createElement("img");
+  img.src = src;
+  img.className = "image-overlay-img";
+
+  img.addEventListener("click", e => e.stopPropagation());
+
+  overlay.addEventListener("click", () => {
+    overlay.remove();
+  });
+
+  document.addEventListener("keydown", function esc(e) {
+    if (e.key === "Escape") {
+      overlay.remove();
+      document.removeEventListener("keydown", esc);
+    }
+  });
+
+  overlay.appendChild(img);
+  document.body.appendChild(overlay);
+}
+
+
 // Optional: automatically load on startup
 document.addEventListener("DOMContentLoaded", () => {
   setupScrollButtons();
   loadProjectsByCategory();
 });
+
 
 
 
