@@ -186,16 +186,15 @@ const projects = [
 
         gallery: [
 
+            "boutique/hijabi.JPG",
 
-            "boutique/hijabi.jpg",
+            "boutique/hijabi2.JPG",
 
-            "boutique/hijabi2.jpg",
+            "boutique/renderHijabi.JPG",
 
-            "boutique/renderHijabi.jpg",
+            "boutique/renderHijabiShop.JPG",
 
-            "boutique/renderHijabiShop.jpg",
-
-            "boutique/7.jpg",
+            "boutique/7.JPG",
 
         ]
     },
@@ -225,7 +224,7 @@ const projects = [
 
             "house/house4.jpg",
 
-            "house/house5.jpg",
+            "house/house5.JPG",
 
         ]
     },
@@ -252,6 +251,7 @@ const projects = [
             "house2/house2.jpg",
 
             "house2/house3.jpg",
+            "house2/house4.PNG",
 
         ]
     },
@@ -271,15 +271,15 @@ const projects = [
             "",
 
         heroImage:
-            "apartment/apartment2.png",
+            "apartment/apartment2.PNG",
 
         gallery: [
 
             "apartment/apartment1.jpg",
 
-            "apartment/apartment3.png",
+            "apartment/apartment3.PNG",
 
-            "apartment/apartment4.png",
+            "apartment/apartment4.PNG",
 
             "apartment/apartment5.jpg",
 
@@ -305,15 +305,15 @@ const projects = [
             "",
 
         heroImage:
-            "beautySalon/beautySalon3.png",
+            "beautySalon/beautySalon3.PNG",
 
         gallery: [
 
-            "beautySalon/beautySalon2.png",
+            "beautySalon/beautySalon2.PNG",
 
-            "beautySalon/beautySalon1.png",
+            "beautySalon/beautySalon1.PNG",
 
-            "beautySalon/beautySalon4.png",
+            "beautySalon/beautySalon4.PNG",
 
         ]
     },
@@ -403,9 +403,9 @@ const projects = [
 
             "london/london5.jpg",
 
-            "london/london6.png",
+            "london/london6.PNG",
 
-            "london/london7.png",
+            "london/london7.PNG",
 
         ]
     },
@@ -491,7 +491,7 @@ const projects = [
 
             "secondVilla/secondVilla4.jpg",
 
-            "secondVilla/secondVilla5.jpg",
+            "secondVilla/secondVilla5.PNG",
 
         ]
     },
