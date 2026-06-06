@@ -73,33 +73,33 @@ const projects = [
 
         gallery: [
 
-            "projectImages/villa/villa2.jpg",
+            "villa/villa2.jpg",
 
-            "projectImages/villa/villa3.jpg",
+            "villa3.jpg",
 
-            "projectImages/villa/villa4.jpg",
+            "villa/villa4.jpg",
 
-            "projectImages/villa/villa5.jpg",
+            "villa/villa5.jpg",
 
-            "projectImages/villa/villa6.jpg",
+            "villa/villa6.jpg",
 
-            "projectImages/villa/villa7.jpg",
+            "villa/villa7.jpg",
 
-            "projectImages/villa/villa8.jpg",
+            "villa/villa8.jpg",
 
-            "projectImages/villa/villa9.jpg",
+            "villa/villa9.jpg",
 
-            "projectImages/villa/villa10.jpg",
+            "villa/villa10.jpg",
 
-            "projectImages/villa/villa11.jpg",
+            "villa/villa11.jpg",
 
-            "projectImages/villa/villa12.jpg",
+            "villa/villa12.jpg",
 
-            "projectImages/villa/villa13.jpg",
+            "villa/villa13.jpg",
 
-            "projectImages/villa/villa14.jpg",
+            "villa/villa14.jpg",
 
-            "projectImages/villa/villa15.jpg",
+            "villa/villa15.jpg",
         ]
     },
 
@@ -122,17 +122,17 @@ const projects = [
 
         gallery: [
 
-            "projectImages/caffeBar/caffeBar2.jpg",
+            "caffeBar/caffeBar2.jpg",
 
-            "projectImages/caffeBar/caffeBar3.jpg",
+            "caffeBar/caffeBar3.jpg",
 
-            "projectImages/caffeBar/caffeBar4.jpg",
+            "caffeBar/caffeBar4.jpg",
 
-            "projectImages/caffeBar/caffeBar5.jpg",
+            "caffeBar/caffeBar5.jpg",
 
-            "projectImages/caffeBar/caffeBar6.jpg",
+            "caffeBar/caffeBar6.jpg",
 
-            "projectImages/caffeBar/caffeBar7.jpg",
+            "caffeBar/caffeBar7.jpg",
 
         ]
     },
@@ -152,17 +152,17 @@ const projects = [
             "",
 
         heroImage:
-            "projectImages/studio/studio1.PNG",
+            "studio/studio1.PNG",
 
         gallery: [
 
-            "projectImages/studio/studio2.jpg",
+            "studio/studio2.jpg",
 
-            "projectImages/studio/studio3.jpg",
+            "studio/studio3.jpg",
 
-            "projectImages/studio/studio4.jpg",
+            "studio/studio4.jpg",
 
-            "projectImages/studio/studio5.jpg",
+            "studio/studio5.jpg",
 
         ]
     },
@@ -182,20 +182,20 @@ const projects = [
             "",
 
         heroImage:
-            "projectImages/boutique/boutique2.jpg",
+            "boutique/boutique2.jpg",
 
         gallery: [
 
 
-            "projectImages/boutique/hijabi.jpg",
+            "boutique/hijabi.jpg",
 
-            "projectImages/boutique/hijabi2.jpg",
+            "boutique/hijabi2.jpg",
 
-            "projectImages/boutique/renderHijabi.jpg",
+            "boutique/renderHijabi.jpg",
 
-            "projectImages/boutique/renderHijabiShop.jpg",
+            "boutique/renderHijabiShop.jpg",
 
-            "projectImages/boutique/7.jpg",
+            "boutique/7.jpg",
 
         ]
     },
@@ -215,17 +215,17 @@ const projects = [
             "",
 
         heroImage:
-            "projectImages/house/house1.jpg",
+            "house/house1.jpg",
 
         gallery: [
 
-            "projectImages/house/house2.jpg",
+            "house/house2.jpg",
 
-            "projectImages/house/house3.jpg",
+            "house/house3.jpg",
 
-            "projectImages/house/house4.jpg",
+            "house/house4.jpg",
 
-            "projectImages/house/house5.jpg",
+            "house/house5.jpg",
 
         ]
     },
@@ -245,13 +245,13 @@ const projects = [
             "",
 
         heroImage:
-            "projectImages/house2/house1.jpg",
+            "house2/house1.jpg",
 
         gallery: [
 
-            "projectImages/house2/house2.jpg",
+            "house2/house2.jpg",
 
-            "projectImages/house2/house3.jpg",
+            "house2/house3.jpg",
 
         ]
     },
@@ -271,21 +271,21 @@ const projects = [
             "",
 
         heroImage:
-            "projectImages/apartment/apartment2.png",
+            "apartment/apartment2.png",
 
         gallery: [
 
-            "projectImages/apartment/apartment1.jpg",
+            "apartment/apartment1.jpg",
 
-            "projectImages/apartment/apartment3.png",
+            "apartment/apartment3.png",
 
-            "projectImages/apartment/apartment4.png",
+            "apartment/apartment4.png",
 
-            "projectImages/apartment/apartment5.jpg",
+            "apartment/apartment5.jpg",
 
-            "projectImages/apartment/apartment6.jpg",
+            "apartment/apartment6.jpg",
 
-            "projectImages/apartment/apartment7.jpg",
+            "apartment/apartment7.jpg",
 
         ]
     },
@@ -305,15 +305,15 @@ const projects = [
             "",
 
         heroImage:
-            "projectImages/beautySalon/beautySalon3.png",
+            "beautySalon/beautySalon3.png",
 
         gallery: [
 
-            "projectImages/beautySalon/beautySalon2.png",
+            "beautySalon/beautySalon2.png",
 
-            "projectImages/beautySalon/beautySalon1.png",
+            "beautySalon/beautySalon1.png",
 
-            "projectImages/beautySalon/beautySalon4.png",
+            "beautySalon/beautySalon4.png",
 
         ]
     },
@@ -333,17 +333,17 @@ const projects = [
             "",
 
         heroImage:
-            "projectImages/gasStation/gasStation1.jpg",
+            "gasStation/gasStation1.jpg",
 
         gallery: [
 
-            "projectImages/gasStation/gasStation2.jpg",
+            "gasStation/gasStation2.jpg",
 
-            "projectImages/gasStation/gasStation3.jpg",
+            "gasStation/gasStation3.jpg",
 
-            "projectImages/gasStation/gasStation4.jpg",
+            "gasStation/gasStation4.jpg",
 
-            "projectImages/gasStation/gasStation5.jpg",
+            "gasStation/gasStation5.jpg",
 
         ]
     },
@@ -363,15 +363,15 @@ const projects = [
             "",
 
         heroImage:
-            "projectImages/interiorCofe/interiorCoffe1.jpg",
+            "interiorCofe/interiorCoffe1.jpg",
 
         gallery: [
 
-            "projectImages/interiorCofe/interiorCoffee2.jpg",
+            "interiorCofe/interiorCoffee2.jpg",
 
-            "projectImages/interiorCofe/interiorCoffe3.jpg",
+            "interiorCofe/interiorCoffe3.jpg",
 
-            "projectImages/interiorCofe/interiorCoffee4.jpg",
+            "interiorCofe/interiorCoffee4.jpg",
 
         ]
     },
@@ -391,21 +391,21 @@ const projects = [
             "",
 
         heroImage:
-            "projectImages/london/london1.jpg",
+            "london/london1.jpg",
 
         gallery: [
 
-            "projectImages/london/london2.jpg",
+            "london/london2.jpg",
 
-            "projectImages/london/london3.jpg",
+            "london/london3.jpg",
 
-            "projectImages/london/london4.jpg",
+            "london/london4.jpg",
 
-            "projectImages/london/london5.jpg",
+            "london/london5.jpg",
 
-            "projectImages/london/london6.png",
+            "london/london6.png",
 
-            "projectImages/london/london7.png",
+            "london/london7.png",
 
         ]
     },
@@ -425,15 +425,15 @@ const projects = [
             "",
 
         heroImage:
-            "projectImages/playBoy/playBoy1.jpg",
+            "playBoy/playBoy1.jpg",
 
         gallery: [
 
-            "projectImages/playBoy/playBoy2.jpg",
+            "playBoy/playBoy2.jpg",
 
-            "projectImages/playBoy/playBoy3.jpg",
+            "playBoy/playBoy3.jpg",
 
-            "projectImages/playBoy/playBoy4.jpg",
+            "playBoy/playBoy4.jpg",
 
         ]
     },
@@ -453,15 +453,15 @@ const projects = [
             "",
 
         heroImage:
-            "projectImages/secondPlayBoy/secondPlayBoy1.jpg",
+            "secondPlayBoy/secondPlayBoy1.jpg",
 
         gallery: [
 
-            "projectImages/secondPlayBoy/secondPlayBoy2.jpg",
+            "secondPlayBoy/secondPlayBoy2.jpg",
 
-            "projectImages/secondPlayBoy/secondPlayBoy3.jpg",
+            "secondPlayBoy/secondPlayBoy3.jpg",
 
-            "projectImages/secondPlayBoy/secondPlayBoy4.jpg",
+            "secondPlayBoy/secondPlayBoy4.jpg",
 
         ]
     },
@@ -481,17 +481,17 @@ const projects = [
             "",
 
         heroImage:
-            "projectImages/secondVilla/secondVilla2.jpg",
+            "secondVilla/secondVilla2.jpg",
 
         gallery: [
 
-            "projectImages/secondVilla/secondVilla1.jpg",
+            "secondVilla/secondVilla1.jpg",
 
-            "projectImages/secondVilla/secondVilla3.jpg",
+            "secondVilla/secondVilla3.jpg",
 
-            "projectImages/secondVilla/secondVilla4.jpg",
+            "secondVilla/secondVilla4.jpg",
 
-            "projectImages/secondVilla/secondVilla5.jpg",
+            "secondVilla/secondVilla5.jpg",
 
         ]
     },
