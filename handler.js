@@ -181,7 +181,7 @@ const projects = [
         description:
             "",
 
-        heroImage:
+        heroImage: 
             "boutique/boutique2.jpg",
 
         gallery: [
