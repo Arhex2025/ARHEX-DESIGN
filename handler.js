@@ -69,7 +69,7 @@ const projects = [
             "",
 
         heroImage:
-            "projectImages/villa/villa1.jpg",
+            "villa/villa1.jpg",
 
         gallery: [
 
