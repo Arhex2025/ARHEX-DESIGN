@@ -75,7 +75,7 @@ const projects = [
 
             "villa/villa2.jpg",
 
-            "villa3.jpg",
+            "villa/villa3.jpg",
 
             "villa/villa4.jpg",
 
@@ -118,7 +118,7 @@ const projects = [
             "",
 
         heroImage:
-            "projectImages/caffeBar/caffeBar1.jpg",
+            "caffeBar/caffeBar1.jpg",
 
         gallery: [
 
