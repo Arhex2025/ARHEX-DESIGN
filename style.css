@@ -20,6 +20,7 @@ body{
     position:fixed;
     top:0;
     left:0;
+    right:0;
     width:100%;
     z-index:1000;
 
@@ -152,7 +153,7 @@ body{
 
 .hero-content{
     width:100%;
-    max-width:1700px;
+    max-width:10vw;
 
     margin:0 auto;
 
@@ -625,10 +626,6 @@ body{
 /* MOBILE */
 
 @media(max-width:900px){
-
-    .hero h1{
-        font-size:4rem;
-    }
 
     .stats{
         grid-template-columns:1fr 1fr;
