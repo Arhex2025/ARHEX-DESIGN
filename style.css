@@ -306,8 +306,12 @@ body{
 }
 
 .about h2{
-    max-width:1200px;
-    font-size:3rem;
+    max-width:100%;
+    font-size:clamp(
+        2rem,
+        10vw,
+        3rem
+    );
     line-height:1.2;
     margin-bottom:80px;
 }
@@ -603,6 +607,12 @@ body{
 
 @media(max-width:900px){
 
+    .stat span{
+
+        font-size:3rem;
+
+    }
+
     .hero h1{
         font-size:4rem;
     }
@@ -611,7 +621,16 @@ body{
         grid-template-columns:1fr 1fr;
     }
 
-    .navbar{padding: 20px;}
+    .navbar{
+
+        width:100%;
+        max-width:100vw;
+
+        padding:20px;
+
+        overflow:hidden;
+
+    }
     .nav-btn{ display: none}
 
     .project,
