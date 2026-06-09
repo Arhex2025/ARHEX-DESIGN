@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    outline: 1px solid red;
 }
 
 html{
@@ -156,7 +157,7 @@ body{
 
     margin:0 auto;
 
-    padding:0 80px;
+    padding:0 24px;
 }
 
 .hero-left{
@@ -609,6 +610,9 @@ body{
     .stats{
         grid-template-columns:1fr 1fr;
     }
+
+    .navbar{padding: 20px;}
+    .nav-btn{ display: none}
 
     .project,
     .project.reverse{
