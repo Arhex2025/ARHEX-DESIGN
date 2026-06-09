@@ -153,7 +153,6 @@ body{
 
 .hero-content{
     width:100%;
-    max-width:10vw;
 
     margin:0 auto;
 
@@ -161,7 +160,7 @@ body{
 }
 
 .hero-left{
-    max-width:min(550px, 90vw);
+    max-width:650px;
 }
 
 .hero-logo{
@@ -173,28 +172,10 @@ body{
 
 .hero h1{
     font-family:'Bebas Neue',sans-serif;
-    font-size: 7rem;
+    font-size:clamp(4rem, 7vw, 7rem);
     line-height:1;
     color:white;
     margin-bottom:25px;
-}
-
-@media (max-width: 1600px){
-    .hero h1{
-        font-size:4rem;
-    }
-}
-
-@media (max-width: 1400px){
-    .hero h1{
-        font-size:3rem;
-    }
-}
-
-@media (max-width: 1200px){
-    .hero h1{
-        font-size:2rem;
-    }
 }
 
 .hero p{
