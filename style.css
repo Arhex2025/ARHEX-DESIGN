@@ -2,7 +2,6 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    outline: 1px solid red;
 }
 
 html{
@@ -308,7 +307,7 @@ body{
 .about h2{
     max-width:100%;
     font-size:clamp(
-        2rem,
+        1.5rem,
         10vw,
         3rem
     );
